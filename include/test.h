@@ -15,3 +15,5 @@ int sqrtInt(int);
 int moveElement(int nums[], int val, int numssize);
 
 int removeElement(vector<int>& nums, int val);
+
+int trapingRainWater(vector<int> height);

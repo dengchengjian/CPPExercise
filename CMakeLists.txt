@@ -14,7 +14,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # add_library(src ./src/test.cpp)
 
-aux_source_directory(./src/arrayExercise SRCS_DIR) # add all source files
+aux_source_directory(./src/leetcode SRCS_DIR) # add all source files
 file(GLOB_RECURSE SOURCE
     main.cpp
     # src/arrayExercise/*.cpp
