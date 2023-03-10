@@ -50,8 +50,6 @@ int  trapingRainWater(vector<int> height){
         }
 
     }
-    
-    cout << water << endl;
 
     return water;
 

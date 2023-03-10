@@ -1,3 +1,4 @@
+//
 #include <vector>
 
 using namespace std;
@@ -17,3 +18,20 @@ int moveElement(int nums[], int val, int numssize);
 int removeElement(vector<int>& nums, int val);
 
 int trapingRainWater(vector<int> height);
+
+void baseSyntax();
+
+void swapNums(int &x, int &y);
+
+void swapNumsTest();
+
+int timeCostTest();
+
+void passArraysTest();
+
+void overLoadingTest();
+
+int mathConstants();
+
+
+

@@ -1,7 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <test.h>
+
+#include "test.h"
 
 using namespace std;
 
@@ -33,6 +34,19 @@ int arrayDefine(){
     vector<int> array6(7, 3);
 
     cout << arr2[0][2] << " " << arr2[1][0] << endl;
+
+    string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+    string car[] = {"Volvo", "BMW", "Ford"}; // Three arrays
+
+    string letter2[2][4] = {
+        {"A", "B", "C", "D"},
+        {"E", "F", "G", "H"}};
+
+    string letter3[2][2][2] = {
+        {{"A", "B"},
+         {"C", "D"}},
+        {{"E", "F"},
+         {"G", "H"}}};
 
     return 0;
 
