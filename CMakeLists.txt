@@ -19,6 +19,8 @@ file(GLOB_RECURSE SOURCE
     main.cpp
     src/basesyntax/*.cpp
     src/timecomplexity/timeCostTest.cpp
+    src/classes/classes.cpp
+    src/leetcode/jugeLeapYear.cpp
 )
 # set(SRC_LIST
 #         ./main.cpp

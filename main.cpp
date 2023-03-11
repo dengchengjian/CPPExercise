@@ -5,12 +5,14 @@
 #include <string>
 
 #include "test.h"
+#include "classes.h"
+#include "leetcode.h"
 
 using namespace std;
 
 int main(int argc, char* argv[]){
 
-    mathConstants();
-    
+    jugeLeapYear();
+        
     return 0;
 }
